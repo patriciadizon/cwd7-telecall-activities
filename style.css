@@ -1,0 +1,17 @@
+.basic .collection-item {
+    background-color: lightcoral;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 5px groove gold !important;
+    border: 5px groove gold;
+}.links .collection-item {
+    background-color: lightgreen;
+    line-height: 1.5rem;
+    padding: 10px 20px;
+    margin: 0;
+    border-bottom: 5px solid silver !important;
+    border: 5px solid silver;
+    border-radius: 25%;
+}
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Cards and Buttons</title>
+</head>
+<body class="pink lighten-5">
+    <!--Buttons-->
+<div class="container">
+    <h3>Raised</h3>
+    <a class="waves-effect waves-light amber btn pulse">press</a>
+    <a class="waves-effect waves-light pink btn"><i class="material-icons left">apps</i>enter</a>
+    <a class="waves-effect waves-light blue btn"><i class="material-icons right">archive</i>submit</a>
+    <h3>Floating</h3>
+    <a class="btn-floating btn-large waves-effect waves-light indigo"><i class="material-icons">grade</i></a>
+    <a class="btn-floating btn-medium waves-effect waves-light indigo"><i class="material-icons">grade</i></a>
+    <a class="btn-floating btn-small waves-effect waves-light indigo"><i class="material-icons">grade</i></a>
+    <h3>Flat</h3>
+    <a class="waves-effect waves-orange btn-flat">flat</a>
+    <h3>Submit Button</h3>
+    <button class="btn waves-effect waves-light green" type="submit" name="action">Submit
+        <i class="material-icons right">send</i></button>
+    <h5>Floating Action Button</h5>
+    <!-- Floating Action Button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pulse amber">
+        <i class="large material-icons">audiotrack</i></a>
+        <ul>
+        <li><a class="btn-floating yellow darken-3"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating purple lighten-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating lime accent-3"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating cyan accent-3"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script
+src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+
+<script>
+    $(document).ready(function(){
+        //fixed action button init
+        $('.fixed-action-btn').floatingActionButton({
+        direction: 'left'
+        });
+    });
+    </script>
+</body>
+</html>

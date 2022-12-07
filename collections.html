@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"
+    <title>Collections</title>
+</head>
+<body class="pink lighten-5">
+    <!--Collections-->
+<div class="container">
+    <h5>Basic</h5>
+    <ul class="collection basic">
+        <li class="collection-item">Niecia</li>
+        <li class="collection-item">John Ronnie</li>
+        <li class="collection-item">David</li>
+        <li class="collection-item">Jon Daniel</li>
+    </ul>
+    <h5>Links</h5>
+    <div class="collection links">
+        <a href="#!" class="collection-item">Niecia</a>
+        <a href="#!" class="collection-item active red">John Ronnie</a>
+        <a href="#!" class="collection-item">David</a>
+        <a href="#!" class="collection-item">Jon Daniel</a>
+    </div>
+    <h5>Avatar Content</h5>
+    <ul class="collection">
+        <li class="collection-item avatar">
+        <img src="images/dog.jpg" alt="" class="circle">
+        <span class="title">Title</span>
+        <p>First Line <br>
+        Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">child_care</i></a>
+        </li>
+        <li class="collection-item avatar">
+        <i class="material-icons circle black">computer</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+        Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">child_care</i></a>
+        </li>
+        <li class="collection-item avatar">
+        <i class="material-icons circle grey">directions_run</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+        Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">child_care</i></a>
+        </li>
+        <li class="collection-item avatar">
+        <i class="material-icons circle indigo">directions_bike</i>
+        <span class="title">Title</span>
+        <p>First Line <br>
+        Second Line
+        </p>
+        <a href="#!" class="secondary-content"><i class="material-icons">child_care</i></a>
+        </li>
+    </ul>
+    <h5>Floating Action Button</h5>
+    <!-- Floating Action Button -->
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pulse amber">
+        <i class="large material-icons">audiotrack</i></a>
+        <ul>
+        <li><a class="btn-floating yellow darken-3"><i class="material-icons">insert_chart</i></a></li>
+        <li><a class="btn-floating purple lighten-1"><i class="material-icons">format_quote</i></a></li>
+        <li><a class="btn-floating lime accent-3"><i class="material-icons">publish</i></a></li>
+        <li><a class="btn-floating cyan accent-3"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+    
+    
+    
+</div>
+
+
+
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script
+src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+    //fixed action button init
+    $('.fixed-action-btn').floatingActionButton({
+    direction: 'left'
+    });
+});
+</script>
+</body>
+</html>

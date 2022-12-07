@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Material icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Grid</title>
+</head>
+<body class="pink lighten-5">
+    <!--Grid-->
+<section class="section">
+<div class="container">
+    <h4>Grid</h4><br>
+    <h5>12 Columns</h5>
+    <div class="row">
+        <div class="col s1 cyan">1</div>
+        <div class="col s1 pink">2</div>
+        <div class="col s1 cyan">3</div>
+        <div class="col s1 pink">4</div>
+        <div class="col s1 cyan">5</div>
+        <div class="col s1 pink">6</div>
+        <div class="col s1 cyan">7</div>
+        <div class="col s1 pink">8</div>
+        <div class="col s1 cyan">9</div>
+        <div class="col s1 pink">10</div>
+        <div class="col s1 cyan">11</div>
+        <div class="col s1 pink">12</div>
+      </div>
+      <div class="divider black"></div><br>
+      <h5>Columns live inside Rows</h5>
+      <div class="row">
+        <div class="col s12 yellow">This div is 12-columns wide on all screen sizes</div>
+        <div class="col s6 cyan">6-columns (one-half)</div>
+        <div class="col s6 pink">6-columns (one-half)</div>
+      </div>
+      <div class="divider black"></div><br>
+      <h5>Offsets</h5>
+      <div class="row center">
+        <div class="col s12 pink"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+        <div class="col s6 offset-s6 yellow"><span class="flow-text">6-columns (offset-by-6)</span></div>
+      </div>
+      <div class="divider black"></div><br>
+      <h5>Push and Pull</h5>
+      <div class="row">
+        <div class="col s7 push-s5 m7 cyan"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+        <div class="col s5 pull-s7 m5 pink"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+      </div>
+</div>    
+</section>
+
+
+
+
+
+
+
+
+<!-- Compiled and minified JavaScript -->
+<script
+src="https://code.jquery.com/jquery-3.6.1.min.js"
+integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+
+<script>
+$(document).ready(function(){
+    //fixed action button init
+    $('.fixed-action-btn').floatingActionButton({
+    toolbarEnabled: true
+    });
+});
+</script>
+</body>
+</html>
